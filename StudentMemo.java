@@ -139,5 +139,13 @@ public class Memo {
 			System.out.println("Failed");
 		}
 	}
+	
+	public static void main(String[]args) 
+	{
+		Memo student1 = new Memo();
+		student1.Memo();
+		student1.Memo("Srikanth", 12, 75,76,80,92,89);
+		student1.getPrintMemo();
+	}
 
 }
